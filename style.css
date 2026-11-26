@@ -420,7 +420,7 @@
 
     /* ABOUT CONTENT */
     .about-content {
-        background-color: #F7F8FC;
+        background-color: #cfd7fb;
         padding: 65px 12%;
         text-align: center;
     }
@@ -532,4 +532,76 @@
             black 100%
         );
     }
-        
+    
+/* REFERENCES SECTION */
+
+.references-section {
+    background-color: #ccd6fd;
+    padding: 65px 12%;
+    text-align: center;
+}
+
+.references-section h2 {
+    color: #10213B;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.references-content {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(120deg, #10213B, #1D3A60);
+    border: 1px solid rgba(229, 177, 76, 0.35);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(16, 33, 59, 0.12);
+}
+
+.references-content h3 {
+    color: #E5B14C;
+    margin: 20px 0 12px;
+}
+
+.references-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.references-content li,
+.references-content p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.references-content a {
+    color: #E5B14C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.references-content a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.references-content .references-note {
+    margin-top: 22px;
+    color: #D5DFEC;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .references-section {
+        padding: 55px 7%;
+    }
+
+    .references-content {
+        padding: 22px 18px;
+    }
+
+    .references-section h2 {
+        font-size: 26px;
+    }
+}
+    
